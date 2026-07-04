@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Lisinopril",
+    "dosage": "10mg",
+    "time": "08:00 AM",
+    "purpose": "Blood Pressure"
+  },
+  {
+    "name": "Metformin",
+    "dosage": "500mg",
+    "time": "07:00 PM",
+    "purpose": "Diabetes"
+  },
+  {
+    "name": "Multivitamin",
+    "dosage": "1 tablet",
+    "time": "08:00 AM",
+    "purpose": "General Health"
+  }
+]

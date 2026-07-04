@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="100%" height="100%" fill="#031026" />
+  <style>
+    .card { fill:#071a2b; stroke:#2ee6b6; stroke-width:2; rx:8; }
+    .text { fill:#ffffff; font-family:Arial,Helvetica,sans-serif; font-size:14px }
+    .title { fill:#bfeee0; font-size:16px; font-weight:700 }
+    .sec { stroke:#ff8a65; }
+  </style>
+
+  <!-- Nodes -->
+  <rect x="80" y="120" width="220" height="80" class="card" />
+  <text x="190" y="150" text-anchor="middle" class="title">SchedulerAgent</text>
+  <text x="190" y="170" text-anchor="middle" class="text">Maintain schedules</text>
+
+  <rect x="360" y="120" width="220" height="80" class="card" />
+  <text x="470" y="150" text-anchor="middle" class="title">MedicationAgent</text>
+  <text x="470" y="170" text-anchor="middle" class="text">Medication logic</text>
+
+  <rect x="640" y="120" width="260" height="80" class="card sec" />
+  <text x="770" y="150" text-anchor="middle" class="title">Security Checkpoint</text>
+  <text x="770" y="170" text-anchor="middle" class="text">PII scrub & injection detect</text>
+
+  <rect x="960" y="120" width="220" height="80" class="card" />
+  <text x="1070" y="150" text-anchor="middle" class="title">NotificationAgent</text>
+  <text x="1070" y="170" text-anchor="middle" class="text">Send reminders</text>
+
+  <rect x="360" y="320" width="220" height="80" class="card" />
+  <text x="470" y="355" text-anchor="middle" class="title">MCP Server</text>
+  <text x="470" y="375" text-anchor="middle" class="text">Tools & storage</text>
+
+  <rect x="960" y="320" width="220" height="80" class="card" />
+  <text x="1070" y="355" text-anchor="middle" class="title">Human Reviewer</text>
+  <text x="1070" y="375" text-anchor="middle" class="text">HITL approval</text>
+
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2ee6b6" />
+    </marker>
+  </defs>
+
+  <line x1="300" y1="160" x2="360" y2="160" stroke="#2ee6b6" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="580" y1="160" x2="640" y2="160" stroke="#2ee6b6" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="900" y1="160" x2="960" y2="160" stroke="#2ee6b6" stroke-width="2" marker-end="url(#arrow)" />
+
+  <line x1="770" y1="200" x2="770" y2="320" stroke="#f6b195" stroke-width="2" marker-end="url(#arrow)" />
+  <line x1="470" y1="200" x2="470" y2="320" stroke="#2ee6b6" stroke-width="2" marker-end="url(#arrow)" />
+
+  <line x1="820" y1="360" x2="960" y2="360" stroke="#2ee6b6" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- Labels -->
+  <text x="820" y="200" class="text">AUTO_APPROVE</text>
+  <text x="640" y="250" class="text">Uses MCP tools</text>
+
+  <text x="40" y="40" class="title">Elderly Care Assistant — Agent Workflow</text>
+</svg>

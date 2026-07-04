@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="100%" height="100%" fill="#031026" />
+  <style>
+    .title { fill:#ffffff; font-family:Inter,Arial,Helvetica,sans-serif; font-size:56px; font-weight:700 }
+    .subtitle { fill:#bfcfe6; font-size:24px }
+    .pill { fill:#111827; stroke:#6ee7b7; stroke-width:2; rx:8 }
+    .feature { fill:#bfeee0; font-size:18px }
+  </style>
+
+  <text x="100" y="200" class="title">Elderly Care Assistant</text>
+  <text x="100" y="250" class="subtitle">Automated | Secure | Intelligent</text>
+
+  <!-- Feature icons (simple circles) -->
+  <g transform="translate(1300,700)">
+    <circle cx="0" cy="0" r="48" fill="#2ee6b6" />
+    <text x="80" y="6" class="feature">Reminders</text>
+  </g>
+  <g transform="translate(1450,700)">
+    <circle cx="0" cy="0" r="48" fill="#7c4dff" />
+    <text x="80" y="6" class="feature">Safety</text>
+  </g>
+  <g transform="translate(1600,700)">
+    <circle cx="0" cy="0" r="48" fill="#ffd166" />
+    <text x="80" y="6" class="feature">HITL</text>
+  </g>
+
+  <!-- Abstract shapes -->
+  <g opacity="0.12">
+    <rect x="1260" y="120" width="520" height="320" rx="24" fill="#3a4b63"/>
+    <circle cx="1700" cy="300" r="90" fill="#6f56ff"/>
+  </g>
+
+</svg>
